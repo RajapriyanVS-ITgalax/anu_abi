@@ -1,0 +1,33 @@
+[{
+    "id": 1,
+    "title": "Bakery Counter",
+    "image": "/asset/display/display-main.png",
+    "description": "Cold Rectangular Pastry Showcase <br> Bakery Display Counter <br> Pastry Display Showcases <br> Vertical Cake Display Counter <br> Food Display Counter <br> ",
+    "category": "Display Counter",
+    "price": "Starting at $499 | Special Offer"
+},
+{
+    "id": 2,
+    "title": "Bakery Machinery",
+    "image": "/asset/display/double-oven.png",
+    "description": "Gas Heated Baking Oven <br> Double Deck Oven <br> SS Display Counter <br> Stainless Steel Oven <br> ",
+    "category": "Bakery Machinery",
+    "price": "Starting at $499 | Special Offer"
+},
+{
+    "id": 3,
+    "title": "Kitchen Equipment",
+    "image": "/asset/display/oven.png",
+    "description": "Electrical Big Rice Steaming Cart <br> Sink with Table <br> Gas Deck Oven <br> Rectangular Bakery Display Showcase <br> Electrical Dish Warmer <br> ",
+    "category": "Kitchen Equipment",
+    "price": "Starting at $499 | Special Offer"
+},
+{
+    "id": 4,
+    "title": "Juice Equipments",
+    "image": "/asset/display/juicer.png",
+    "description": "Juice Dispenser Machine <br> Juice Dispenser Machine <br> Juice Dispenser Machine <br> Stainless Steel Juicer <br> Juice Extractor With Pulp Container <br> ",
+    "category": "Juice Equipments",
+    "price": "Starting at $499 | Special Offer"
+}
+]

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bakery Equipment</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo">
+      <img src="/asset/logo.png" alt="Bakery Equipment Logo">
+    </a>
+    <ul class="navlist">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#product">Products</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="right-content">
+      <a href="#" class="nav-btn">Sign In</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h5 data-aos="fade-up" data-aos-duration="1000">#Premium Bakery Solutions</h5>
+      <h1>- Professional Bakery Equipment</h1>
+      <p>Enhance your baking experience with our high-quality bakery equipment, designed for efficiency and durability.
+        We take pride in offering these premium products at affordable prices
+      </p>
+      <div class="main-hero">
+        <a href="#" class="btn">Explore Now</a>
+        <a href="#" class="price" style="padding-left: 10px;">Starting at $499 | <span>Special Offer</span></a>
+      </div>
+    </div>
+    <div class="hero-img" style="margin-top: 30px;">
+      <img src="/asset/head3.png" alt="Bakery Equipment">
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="sub-header" data-aos="fade-up" data-aos-duration="1000">About Us</div>
+    <div class="align-center justify-between">
+      <div class="hero-img align-center">
+        <img src="/asset/head1.png" alt="Bakery Equipment" style="height: 300px;">
+      </div>
+      <div class="hero-text" style="text-align: justify;padding-top: 0px !important;">
+        <p style="max-width: 700px;">
+          We are a highly regarded wholesaler and trader, specializing in a diverse range of high-quality products,
+          including Display Counters, Bakery Equipment, Commercial Kitchen Equipment, and more. Our commitment to
+          excellence is reflected in the superior craftsmanship of the products we offer, all of which are constructed
+          using the finest raw materials sourced from trustworthy and reputable vendors in the industry.
+          <br>
+          The products we provide are meticulously designed to ensure exceptional performance, reliability, and
+          long-lasting durability, making them ideal for businesses looking for dependable equipment for their
+          operations.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="about" id="product">
+
+    <div class="sub-header" data-aos="fade-up" data-aos-duration="1000">Products</div>
+
+    <div class="card-content row">
+      <div class="col-3">
+        <div class="card">
+          <div class="card-image">
+            <img src="/asset/display/display-main.png" alt="Bakery Counter">
+          </div>
+          <div class="card-content">
+            <h3>Display Counter</h3>
+            <p>
+              Cold Rectangular Pastry Showcase <br>
+              Bakery Display Counter <br>
+              Pastry Display Showcases <br>
+              Vertical Cake Display Counter <br>
+              Food Display Counter <br>
+            </p>
+            <a href="#" class="btn">View More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <div class="card-image">
+            <img src="/asset/display/double-oven.png" alt="Bakery Counter">
+          </div>
+          <div class="card-content">
+            <h3>Bakery Machinery </h3>
+            <p>Gas Heated Baking Oven <br>
+              Double Deck Oven <br>
+              SS Display Counter <br>
+              Gas Heated Baking Oven <br>
+              Bakery Machinery With Net</p>
+            <a href="#" class="btn">View More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <div class="card-image">
+            <img src="/asset/display/oven.png" alt="Bakery Counter">
+          </div>
+          <div class="card-content">
+            <h3>Kitchen Equipment </h3>
+            <p>Electrical Big Rice Steaming Cart <br>
+              Sink with Table <br>
+              Gas Deck Oven <br>
+              Rectangular Bakery Display Showcase <br>
+              Electrical Dish Warmer <br>
+            </p>
+            <a href="#" class="btn">View More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <div class="card-image">
+            <img src="/asset/display/juicer.png" alt="Bakery Counter">
+          </div>
+          <div class="card-content">
+            <h3>Juice Equipments </h3>
+            <p>Juice Dispenser Machine <br>
+              Juice Dispenser Machine <br>
+              Juice Dispenser Machine <br>
+              Stainless Steel Juicer <br>
+              Juice Extractor With Pulp Container <br>
+            </p>
+            <a href="#" class="btn">View More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="center" style="margin-top: 10px;">
+      <a href="#" class="btn">View More</a>
+    </div>
+
+  </section> -->
+  <section class="about" id="product">
+    <div class="sub-header" data-aos="fade-up" data-aos-duration="1000">Products</div>
+    <div id="product-list" class="card-content row"></div> 
+<div style="display: flex;justify-content: center;margin-top: 25px;">
+  <a href="#" class="btn" style="width: 200px;">View More</a>
+
+</div>
+  </section>
+
+  <section>
+
+  <div class="sub-header" data-aos="fade-up" data-aos-duration="1000">Contact Us</div>
+</section>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script>
+    AOS.init({ offset: 1 });
+  </script>
+</body>
+
+</html>
